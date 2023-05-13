@@ -1,0 +1,92 @@
+/* Centrer les éléments sur la page */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style du titre */
+  h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #ff6b6b;
+  }
+  
+  /* Style des menus */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f9c74f;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #fca311;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+
+ /* Style des actualités */
+#actus {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #f7d9c8;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    
+  }
+  
+  #actus h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #actus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  #actus li {
+    margin-bottom: 2rem;
+    width: 30%;
+  }
+  
+  .actu-container {
+    background-color: #fca311;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .actu-container h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
