@@ -1,6 +1,7 @@
 /* Centrer les éléments sur la page */
 body {
     display: flex;
+    background: 000000;
     flex-direction: column;
     align-items: center;
     font-family: Arial, sans-serif;
