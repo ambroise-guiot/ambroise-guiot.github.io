@@ -3,22 +3,6 @@ fetch("data/data.json")
 .then(response => main(JSON.stringify(response)))
 .catch(error => alert("Erreur : " + error));
 
-
-var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
-
-xhr.addEventListener("readystatechange", function() {
-     if(this.readyState === 4) {
-          console.log(this.responseText);
-     }
-});
-
-xhr.open("POST", "https://api.cloudmersive.com/convert/csv/to/json");
-
-xhr.setRequestHeader("Apikey", "5720c9d4-084e-4dab-b4dd-f10a3869ad00");
-
-xhr.send("https://docs.google.com/spreadsheets/d/e/2PACX-1vT0syUr5VoKw6isNHmOFuTlwyNIarHN5lR3n9UDyfflMa1sKkzAlqYLHOv-nMCUXWdsjnzvTlLTB2iF/pub?gid=0&single=true&output=csv");
-
 async function main(res_json){
     index_part = JSON.parse(res_json);
 
