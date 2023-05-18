@@ -56,7 +56,7 @@
             bests.innerHTML = "";
             item_best.forEach(function(item, index, array) {
             let open_part_best = "open_part_best(this.id)";
-            bests.innerHTML = bests.innerHTML + "<li class='li'>"+item_best+"<br><button class='button-li' onclick='"+open_part_best+"'"+" id='"+index+"'></button></li><br><br>";
+            bests.innerHTML = bests.innerHTML + "<li class='li'>"+item_best+"<br><button class='button-li' onclick='"+open_part_best+"'"+" id='"+index+"'>Télécharger</button></li><br><br>";
             })
             document.getElementById("div_bests").hidden = false;
         }
